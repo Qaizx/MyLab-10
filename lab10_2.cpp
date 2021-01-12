@@ -24,19 +24,6 @@ int calScore(int x,int y,int z){
 }
 
 int findYugiAction(int s){	
-	int dice = 0;
-	dice = rand() %100 + 1;
-	if(s == 9) return 2; 
-	else if(s < 6) return 1; 
-	else{
-		if(dice <= 69 && dice > 0)
-			return 1;
-		else
-			return 2;
-	}
-}
-
-int findYugiAction(int s){	
 	if(s == 9) return 2;
 	else if(s < 6) return 1;
 	else{
